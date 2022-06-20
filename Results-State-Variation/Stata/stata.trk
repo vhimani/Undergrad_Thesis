@@ -1,0 +1,179 @@
+* 00000005
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/t
+N tabout.pkg
+D  6 Jan 2022
+U 1
+d 'TABOUT': module to export publication quality cross-tabulations
+d 
+d  tabout is a table building program for oneway and twoway
+d tables of frequencies and percentages, and for summary tables. It
+d produces publication quality tables for export to a text file.
+d These tables can then be used with spreadsheets, word processors,
+d web browsers or compilers like LaTeX. The tables produced by
+d tabout allow multiple panels so that a number of variables can be
+d included in the one table. tabout also provides standard errors
+d and confidence intervals, as well as a range of table statistics
+d (chi2 etc). The output from tabout matches Stata's tabulate, most
+d of tabstat and some of table.
+d 
+d KW: tables
+d KW: latex
+d KW: html
+d KW: delimited text
+d 
+d Requires: Stata version 9.2
+d 
+d Distribution-Date: 20190316
+d 
+d Author: Ian Watson , Macquarie University, Australia
+d Support: email mail@@ianwatson.com.au
+d 
+f t\tabout.ado
+f t\tabstatout.ado
+f t\tabout.hlp
+f f\figout.ado
+f f\figout.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/e
+N estout.pkg
+D 18 Mar 2022
+U 2
+d 'ESTOUT': module to make regression tables
+d 
+d  estout produces a table of regression results from one or
+d several models for use with spreadsheets, LaTeX, HTML, or a
+d word-processor table. eststo stores a quick copy of the active
+d estimation results for later tabulation. esttab is a wrapper for
+d estout. It displays a pretty looking publication-style regression
+d table without much typing. estadd adds additional results to the
+d e()-returns for one or several models previously fitted and
+d stored. This package subsumes the previously circulated esto,
+d esta, estadd,  and estadd_plus. An earlier version of estout is
+d available  as estout1.
+d 
+d KW: estimates
+d KW: LaTeX
+d KW: HTML
+d KW: word processor
+d KW: output
+d 
+d Requires: Stata version 8.2
+d 
+d Distribution-Date: 20210523
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f _\_eststo.ado
+f _\_eststo.hlp
+f e\estadd.ado
+f e\estadd.hlp
+f e\estout.ado
+f e\estout.hlp
+f e\eststo.ado
+f e\eststo.hlp
+f e\estpost.ado
+f e\estpost.hlp
+f e\esttab.ado
+f e\esttab.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/g
+N groups.pkg
+D 18 Mar 2022
+U 3
+d 'GROUPS': module to list group frequencies
+d 
+d  groups lists the distinct groups of varlist occurring  in the
+d dataset and their frequencies. groups is a wrapper  for list and
+d offers several handles for controlling the  kinds of frequencies
+d shown and their appearance.
+d 
+d KW:  tabulations
+d KW: list
+d 
+d Requires: Stata version 8.0
+d 
+d 
+d Author: Nicholas J. Cox, Durham University
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20180224
+d 
+f g\groups.ado
+f g\groups.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/l
+N lincomest.pkg
+D 19 Mar 2022
+U 4
+d 'LINCOMEST': module to generate linear combinations of estimators saved as estimation results
+d 
+d lincomest is an extension to -lincom-, which calculates
+d confidence  intervals and P-values for linear combinations of
+d model coefficients.  lincomest is an eclass command, and saves
+d the estimate and variance of the  linear combination as
+d estimation results, with the option of holding any  existing
+d estimation results to be recalled later by estimates unhold. The
+d advantage of doing this is that the linear combination can be
+d input  to the parmest package to create a data set with one
+d observation  containing a confidence interval and P-value for the
+d linear combination,  or to list that data set to the Stata log in
+d a user-defined format.   This data set can be concatenated with
+d other parmest output data sets  using the dsconcat package, and
+d the confidence intervals and/or P-values  can then be plotted
+d and/or tabulated.
+d 
+d KW: estimation results
+d KW: confidence intervals
+d 
+d Requires: Stata version 10.0
+d 
+d 
+d Author: Roger Newson, National Heart and Lung Institute, Imperial College London
+d Support: email r.newson@@imperial.ac.uk
+d 
+d Distribution-Date: 20160719
+d 
+f l\lincomest.ado
+f l\lincomest.sthlp
+f l\lincomest_p.ado
+e
+S http://fmwww.bc.edu/repec/bocode/d
+N dataex.pkg
+D 22 Mar 2022
+U 5
+d 'DATAEX': module to generate a properly formatted data example for Statalist
+d 
+d  With dataex, you can produce a data example that you can then
+d copy and paste in a post on Statalist. Readers will be able to
+d easily recreate your dataset and note the exact variable type and
+d content. Even date/time formatting and value labels are carried
+d over. Providing a good data example increases the likelihood of
+d an answer with suggestions that are on point.
+d 
+d KW: Statalist
+d KW: dataset
+d KW: question
+d KW: answer
+d KW: example
+d KW: list
+d KW: subsample
+d 
+d Requires: Stata version 9.2
+d 
+d Distribution-Date: 20170531
+d 
+d Author: Robert Picard, Durham University
+d Support: email picard@@netbox.com
+d 
+d Author: Nicholas J. Cox
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+f d\dataex.ado
+f d\dataex.sthlp
+e
