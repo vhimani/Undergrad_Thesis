@@ -9,7 +9,7 @@ trwhona
 tulineno
 tuwho_code
  
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2010\Basic Original Data Files\atuswho_2010.dat",  names comma ;
+ using "${PROJECT_ROOT}/2010/Basic-Original-Data-Files/atuswho_2010.dat",  names comma ;
 
  
 label variable trwhona "Who information not asked for activity";
@@ -62,4 +62,4 @@ label values tuwho_code   labeltuwho_code;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2010\Basic Transformed Data Files\atuswho_2010.dta";
+save "${PROJECT_ROOT}/2010/Basic-Transformed-Data-Files/atuswho_2010.dta";

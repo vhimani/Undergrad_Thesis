@@ -378,7 +378,7 @@ pxspouse
 qstnum
 tratusr
 prdasian
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2013\Basic-Original-Data-Files\atuscps_2013.dat", names comma ;
+ using "${PROJECT_ROOT}/2013/Basic-Original-Data-Files/atuscps_2013.dat", names comma ;
  
 label variable gepseucl "Scrambled pseudo primary sampling unit (PSU) cluster";
 label variable gepseust "Scrambled pseudo primary sampling unit (PSU) collapsed stratum";
@@ -6227,4 +6227,4 @@ label values tratusr   labeltratusr;
 label values prdasian  labelprdasian; 
 describe, short;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2013\Basic-Transformed-Data-Files\atuscps_2013.dta";
+save "${PROJECT_ROOT}/2013/Basic-Transformed-Data-Files/atuscps_2013.dta";

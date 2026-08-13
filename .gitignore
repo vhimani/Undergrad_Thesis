@@ -7,3 +7,15 @@ Results-State-Variation/all_atus_temp.dta
 thesis/all_atus.dta
 thesis/all_atus_qtr.dta
 thesis/all_atus_temp.dta
+
+# Local execution artifacts
+logs/
+*.log
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+derived/
+tmp/
+__pycache__/
+*.py[cod]
+STD*.tmp

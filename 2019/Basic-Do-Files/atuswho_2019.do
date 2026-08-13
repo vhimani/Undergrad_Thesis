@@ -8,7 +8,7 @@ tuactivity_n
 trwhona
 tulineno
 tuwho_code
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Original-Data-Files\atuswho_2019.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2019/Basic-Original-Data-Files/atuswho_2019.dat", stringcols(1) ;
 
  
 label variable trwhona "Who information not asked for activity";
@@ -59,4 +59,4 @@ label values trwhona   labeltrwhona;
 label values tuwho_code   labeltuwho_code;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Transformed-Data-Files\atuswho_2019.dta";
+save "${PROJECT_ROOT}/2019/Basic-Transformed-Data-Files/atuswho_2019.dta";

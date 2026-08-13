@@ -33,7 +33,7 @@ tutier3code
 trcode
 trtier2
 txwhere
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2016\Basic-Original-Data-Files\atusact_2016.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2016/Basic-Original-Data-Files/atusact_2016.dat", stringcols(1) ;
  
 
  
@@ -185,4 +185,4 @@ label values tuec24    labeltuec24;
 label values txwhere   labeltxwhere;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2016\Basic-Transformed-Data-Files\atusact_2016.dta";
+save "${PROJECT_ROOT}/2016/Basic-Transformed-Data-Files/atusact_2016.dta";

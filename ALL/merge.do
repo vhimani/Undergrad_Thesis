@@ -6,7 +6,7 @@ clear matrix;
 
 set mem 800m;
 
-cd "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\ALL";
+cd "${PROJECT_ROOT}/ALL";
 
 use 03_subset, clear;
 

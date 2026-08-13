@@ -32,7 +32,7 @@ tutier3code
 txwhere
 
 
-   using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2006\Basic Original Data Files\atusact_2006.dat",  names comma ;
+   using "${PROJECT_ROOT}/2006/Basic-Original-Data-Files/atusact_2006.dat",  names comma ;
  
 label variable tewhere "Edited: where were you during the activity?";
 label variable trtcctot_ln "Total time spent during activity providing secondary childcare for all children < 13";
@@ -182,5 +182,5 @@ label values txwhere   labeltxwhere;
   TUCUMDUR24 8
 */
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2006\Basic Transformed Data Files\atusact_2006.dta" ;
+save "${PROJECT_ROOT}/2006/Basic-Transformed-Data-Files/atusact_2006.dta" ;
 

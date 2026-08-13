@@ -366,7 +366,7 @@ pxsex
 pxspouse
 qstnum
   
-using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2005\Basic Original Data Files\atuscps_2005.dat",  names comma ;
+using "${PROJECT_ROOT}/2005/Basic-Original-Data-Files/atuscps_2005.dat",  names comma ;
 
 label variable gepseucl "Scrambled pseudo primary sampling unit (PSU) cluster";
 label variable gepseust "Scrambled pseudo primary sampling unit (PSU) collapsed stratum";
@@ -6324,4 +6324,4 @@ describe, short;
   GEPSEUCL 8
 */
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2005\Basic Transformed Data Files\atuscps_2005.dta" ;
+save "${PROJECT_ROOT}/2005/Basic-Transformed-Data-Files/atuscps_2005.dta" ;

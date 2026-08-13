@@ -32,7 +32,7 @@ tutier3code
 trcode
 trtier2
 txwhere
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2007\Basic Original Data Files\atusact_2007.dat",  names comma ;
+ using "${PROJECT_ROOT}/2007/Basic-Original-Data-Files/atusact_2007.dat",  names comma ;
 
  
 label variable tewhere "Edited: where were you during the activity?";
@@ -164,4 +164,4 @@ label values txwhere   labeltxwhere;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2007\Basic Transformed Data Files\atusact_2007.dta";
+save "${PROJECT_ROOT}/2007/Basic-Transformed-Data-Files/atusact_2007.dta";

@@ -378,7 +378,7 @@ pxsex
 pxspouse
 qstnum
 tratusr
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2009\Basic Original Data Files\atuscps_2009.dat",  names comma ;
+ using "${PROJECT_ROOT}/2009/Basic-Original-Data-Files/atuscps_2009.dat",  names comma ;
 
  
 label variable gepseucl "Scrambled pseudo primary sampling unit (PSU) cluster";
@@ -6178,5 +6178,5 @@ label values tratusr   labeltratusr;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2009\Basic Transformed Data Files\atuscps_2009.dta";
+save "${PROJECT_ROOT}/2009/Basic-Transformed-Data-Files/atuscps_2009.dta";
 

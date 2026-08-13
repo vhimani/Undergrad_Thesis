@@ -12,7 +12,7 @@ txage
 txrrp
 txsex
  
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2010\Basic Original Data Files\atusrost_2010.dat",  names comma ;
+ using "${PROJECT_ROOT}/2010/Basic-Original-Data-Files/atusrost_2010.dat",  names comma ;
  
 label variable teage "Edited: age";
 label variable terrp "Edited: how is this person related to you?";
@@ -144,4 +144,4 @@ label values txsex   labeltxsex;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2010\Basic Transformed Data Files\atusrost_2010.dta";
+save "${PROJECT_ROOT}/2010/Basic-Transformed-Data-Files/atusrost_2010.dta";

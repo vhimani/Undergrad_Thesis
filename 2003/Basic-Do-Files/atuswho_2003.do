@@ -7,7 +7,7 @@ insheet
   tuwho_code
   tulineno
   trwhona
-   using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2003\Basic-Original-Data-Files\atuswho_2003.dat",  names comma ;
+   using "${PROJECT_ROOT}/2003/Basic-Original-Data-Files/atuswho_2003.dat",  names comma ;
  
 
 label variable  trwhona           "Who information not asked for activity";
@@ -64,4 +64,4 @@ describe, short;
   trwhona 8
 */
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2003\Basic-Transformed-Data-Files\atuswho_2003.dta" ;
+save "${PROJECT_ROOT}/2003/Basic-Transformed-Data-Files/atuswho_2003.dta" ;

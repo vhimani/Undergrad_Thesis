@@ -162,7 +162,7 @@ insheet
   txernhry
   tubwgt
   tu04fwgt
-  using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2003\Basic-Original-Data-Files\atusresp_2003.dat",  names comma ;
+  using "${PROJECT_ROOT}/2003/Basic-Original-Data-Files/atusresp_2003.dat",  names comma ;
 
 label variable  teabsrsn          "Edited: What was the main reason you were absent from your job last week?";
 label variable  teern             "Edited: Total weekly overtime earnings (2 implied decimals)";
@@ -2116,4 +2116,4 @@ label values    txtcoc            labeltxtcoc;
 
 describe, short;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2003\Basic-Transformed-Data-Files\atusresp_2003.dta";
+save "${PROJECT_ROOT}/2003/Basic-Transformed-Data-Files/atusresp_2003.dta";

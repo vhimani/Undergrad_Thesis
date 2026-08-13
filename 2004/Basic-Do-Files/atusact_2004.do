@@ -31,7 +31,7 @@ tucaseid
   trthh_ln
   trtcctot_ln
 
-   using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2004\Basic-Do-Files\atusact_2004.dat",  names comma ;
+   using "${PROJECT_ROOT}/2004/Basic-Original-Data-Files/atusact_2004.dat",  names comma ;
  
 label variable  tewhere           "Edited: Where were you during the activity?";
 label variable  trtcc_ln          "Total time spent during activity providing secondary child care for  household and own non-household children < 13";
@@ -179,5 +179,5 @@ describe, short;
   TUCUMDUR24 8
 */
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2004\Basic-Transformed-Data-Files\atusact_2004.dta" ;
+save "${PROJECT_ROOT}/2004/Basic-Transformed-Data-Files/atusact_2004.dta" ;
 

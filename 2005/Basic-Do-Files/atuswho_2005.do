@@ -8,7 +8,7 @@ insheet
   tulineno
   trwhona
   
-   using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2005\Basic Original Data Files\atuswho_2005.dat",  names comma ;
+   using "${PROJECT_ROOT}/2005/Basic-Original-Data-Files/atuswho_2005.dat",  names comma ;
  
 
 label variable  trwhona           "Who information not asked for activity";
@@ -65,4 +65,4 @@ describe, short;
   trwhona 8
 */
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2005\Basic Transformed Data Files\atuswho_2005.dta" ;
+save "${PROJECT_ROOT}/2005/Basic-Transformed-Data-Files/atuswho_2005.dta" ;

@@ -370,7 +370,7 @@ pxcohab
 pelnmom
 pxmomtyp
  
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2007\Basic Original Data Files\atuscps_2007.dat",  names comma ;
+ using "${PROJECT_ROOT}/2007/Basic-Original-Data-Files/atuscps_2007.dat",  names comma ;
 
  
 label variable gepseucl "Scrambled pseudo primary sampling unit (PSU) cluster";
@@ -5966,5 +5966,5 @@ label values tratusr   labeltratusr;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2007\Basic Transformed Data Files\atuscps_2007.dta";
+save "${PROJECT_ROOT}/2007/Basic-Transformed-Data-Files/atuscps_2007.dta";
 

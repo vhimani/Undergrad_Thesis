@@ -4,7 +4,7 @@ clear matrix;
 set mem 200m;
 set mat 800;
 
-cd "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2008\Basic-Transformed-Data-Files";
+cd "${PROJECT_ROOT}/2008/Basic-Transformed-Data-Files";
 
 /******************/
 
@@ -546,4 +546,4 @@ replace dummyrecession=0 if (year>=2003 & year<=2008);
 
 save "08_subset", replace;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\ALL\08_subset.dta", replace;
+save "${PROJECT_ROOT}/ALL/08_subset.dta", replace;

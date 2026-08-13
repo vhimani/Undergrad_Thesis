@@ -8,7 +8,7 @@ tuactivity_n
 trwhona
 tulineno
 tuwho_code
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2013\Basic-Original-Data-Files\atuswho_2013.dat", names comma ;
+ using "${PROJECT_ROOT}/2013/Basic-Original-Data-Files/atuswho_2013.dat", names comma ;
 
  
  
@@ -62,4 +62,4 @@ label values tuwho_code   labeltuwho_code;
  
 describe, short;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2013\Basic-Transformed-Data-Files\atuswho_2013.dta";
+save "${PROJECT_ROOT}/2013/Basic-Transformed-Data-Files/atuswho_2013.dta";

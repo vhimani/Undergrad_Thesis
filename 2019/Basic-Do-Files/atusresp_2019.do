@@ -177,7 +177,7 @@ txtnohh
 txto
 txtohh
 txtonhh
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Original-Data-Files\atusresp_2019.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2019/Basic-Original-Data-Files/atusresp_2019.dat", stringcols(1) ;
  
  
 label variable teabsrsn "Edited: what was the main reason you were absent from your job last week?";
@@ -2254,4 +2254,4 @@ label values txtohh   labeltxtohh;
 label values txtonhh   labeltxtonhh;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Transformed-Data-Files\atusresp_2019.dta";
+save "${PROJECT_ROOT}/2019/Basic-Transformed-Data-Files/atusresp_2019.dta";

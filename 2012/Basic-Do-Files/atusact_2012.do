@@ -34,7 +34,7 @@ tutier3code
 trcode
 trtier2
 txwhere
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2012\Basic-Original-Data-Files\atusact_2012.dat", names comma ;
+ using "${PROJECT_ROOT}/2012/Basic-Original-Data-Files/atusact_2012.dat", names comma ;
  
 label variable tewhere "Edited: where were you during the activity?";
 label variable trcode "Six digit activity code";
@@ -186,4 +186,4 @@ label values txwhere  labeltxwhere;
  
 describe, short;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2012\Basic-Transformed-Data-Files\atusact_2012.dta";
+save "${PROJECT_ROOT}/2012/Basic-Transformed-Data-Files/atusact_2012.dta";

@@ -8,7 +8,7 @@ tuactivity_n
 trwhona
 tulineno
 tuwho_code
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2016\Basic-Original-Data-Files\atuswho_2016.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2016/Basic-Original-Data-Files/atuswho_2016.dat", stringcols(1) ;
 
 
  
@@ -61,4 +61,4 @@ label values trwhona   labeltrwhona;
 label values tuwho_code   labeltuwho_code;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2016\Basic-Transformed-Data-Files\atuswho_2016.dta";
+save "${PROJECT_ROOT}/2016/Basic-Transformed-Data-Files/atuswho_2016.dta";

@@ -1,0 +1,343 @@
+table,category,column,published_estimate,generated_estimate,estimate_difference,published_se,generated_se,se_difference,comparison_scope,matches_rounding
+4,Other income-generating activities,Beta,0.635000,0.634728,-0.000272,1.230000,1.230252,0.000252,direct thesis comparison,True
+4,Other income-generating activities,Delta,-0.444000,-0.443863,0.000137,1.580000,1.579792,-0.000208,direct thesis comparison,True
+4,Other income-generating activities,Beta + Delta,0.191000,0.190864,-0.000136,1.009000,1.008539,-0.000461,direct thesis comparison,True
+4,Job search,Beta,3.252000,3.252149,0.000149,1.511000,1.510840,-0.000160,direct thesis comparison,True
+4,Job search,Delta,-4.912000,-4.912385,-0.000385,2.080000,2.079963,-0.000037,direct thesis comparison,True
+4,Job search,Beta + Delta,-1.660000,-1.660237,-0.000237,1.443000,1.442729,-0.000271,direct thesis comparison,True
+4,Childcare,Beta,6.165000,6.164568,-0.000432,3.876000,3.876277,0.000277,direct thesis comparison,True
+4,Childcare,Delta,-11.458000,-11.458406,-0.000406,5.254000,5.254327,0.000327,direct thesis comparison,True
+4,Childcare,Beta + Delta,-5.294000,-5.293839,0.000161,3.597000,3.596577,-0.000423,direct thesis comparison,True
+4,Non-market work,Beta,-0.744000,-0.743945,0.000055,14.258000,14.257606,-0.000394,direct thesis comparison,True
+4,Non-market work,Delta,35.023000,35.023460,0.000460,18.196000,18.195925,-0.000075,direct thesis comparison,True
+4,Non-market work,Beta + Delta,34.279000,34.279515,0.000515,11.514000,11.514003,0.000003,direct thesis comparison,True
+4,Core home production,Beta,5.831000,5.831000,0.000000,5.727000,5.727217,0.000217,direct thesis comparison,True
+4,Core home production,Delta,15.572000,15.571852,-0.000148,7.436000,7.436369,0.000369,direct thesis comparison,True
+4,Core home production,Beta + Delta,21.403000,21.402852,-0.000148,4.825000,4.824899,-0.000101,direct thesis comparison,True
+4,Home ownership activities,Beta,-8.153000,-8.153220,-0.000220,10.458000,10.458457,0.000457,direct thesis comparison,True
+4,Home ownership activities,Delta,39.549000,39.548665,-0.000335,14.990000,14.990480,0.000480,direct thesis comparison,True
+4,Home ownership activities,Beta + Delta,31.395000,31.395445,0.000445,10.862000,10.861689,-0.000311,direct thesis comparison,True
+4,Obtaining goods and services,Beta,-0.299000,-0.298950,0.000050,5.272000,5.272414,0.000414,direct thesis comparison,True
+4,Obtaining goods and services,Delta,-16.740000,-16.739729,0.000271,7.991000,7.990756,-0.000244,direct thesis comparison,True
+4,Obtaining goods and services,Beta + Delta,-17.039000,-17.038679,0.000321,6.056000,6.055677,-0.000323,direct thesis comparison,True
+4,Others care,Beta,1.877000,1.877224,0.000224,3.385000,3.385474,0.000474,direct thesis comparison,True
+4,Others care,Delta,-3.357000,-3.357328,-0.000328,4.328000,4.327880,-0.000120,direct thesis comparison,True
+4,Others care,Beta + Delta,-1.480000,-1.480104,-0.000104,2.742000,2.742400,0.000400,direct thesis comparison,True
+4,Leisure,Beta,57.821000,57.821088,0.000088,18.904000,18.903559,-0.000441,direct thesis comparison,True
+4,Leisure,Delta,68.786000,68.785687,-0.000313,30.940000,30.940075,0.000075,direct thesis comparison,True
+4,Leisure,Beta + Delta,126.607000,126.606774,-0.000226,24.701000,24.701340,0.000340,direct thesis comparison,True
+4,TV watching,Beta,35.190000,35.189603,-0.000397,16.167000,16.166798,-0.000202,direct thesis comparison,True
+4,TV watching,Delta,8.814000,8.814103,0.000103,24.406000,24.405884,-0.000116,direct thesis comparison,True
+4,TV watching,Beta + Delta,44.004000,44.003706,-0.000294,18.491000,18.491190,0.000190,direct thesis comparison,True
+4,Socializing,Beta,-1.386000,-1.385525,0.000475,8.257000,8.257004,0.000004,direct thesis comparison,True
+4,Socializing,Delta,16.775000,16.775228,0.000228,10.545000,10.544754,-0.000246,direct thesis comparison,True
+4,Socializing,Beta + Delta,15.390000,15.389703,-0.000297,6.689000,6.689259,0.000259,direct thesis comparison,True
+4,Sleeping,Beta,29.495000,29.494781,-0.000219,7.620000,7.619914,-0.000086,direct thesis comparison,True
+4,Sleeping,Delta,12.977000,12.977429,0.000429,9.507000,9.506796,-0.000204,direct thesis comparison,True
+4,Sleeping,Beta + Delta,42.472000,42.472210,0.000210,5.791000,5.790566,-0.000434,direct thesis comparison,True
+4,Eating and personal care,Beta,-3.348000,-3.348338,-0.000338,2.676000,2.676039,0.000039,direct thesis comparison,True
+4,Eating and personal care,Delta,-19.733000,-19.732926,0.000074,7.542000,7.542381,0.000381,direct thesis comparison,True
+4,Eating and personal care,Beta + Delta,-23.081000,-23.081264,-0.000264,7.090000,7.090128,0.000128,direct thesis comparison,True
+4,Other leisure,Beta,-2.129000,-2.129434,-0.000434,14.977000,14.976734,-0.000266,direct thesis comparison,True
+4,Other leisure,Delta,49.952000,49.951853,-0.000147,30.177000,30.176886,-0.000114,direct thesis comparison,True
+4,Other leisure,Beta + Delta,47.822000,47.822420,0.000420,26.331000,26.330822,-0.000178,direct thesis comparison,True
+4,Other,Beta,32.871000,32.871414,0.000414,17.466000,17.466066,0.000066,direct thesis comparison,True
+4,Other,Delta,-86.994000,-86.994492,-0.000492,32.114000,32.114471,0.000471,direct thesis comparison,True
+4,Other,Beta + Delta,-54.123000,-54.123078,-0.000078,7.118000,27.117792,19.999792,confirmed thesis erratum,True
+4,Education,Beta,11.066000,11.065854,-0.000146,12.717000,12.717175,0.000175,direct thesis comparison,True
+4,Education,Delta,-33.177000,-33.177063,-0.000063,27.943000,27.943323,0.000323,direct thesis comparison,True
+4,Education,Beta + Delta,-22.111000,-22.111209,-0.000209,25.010000,25.009705,-0.000295,direct thesis comparison,True
+4,Civic and religious activities,Beta,0.795000,0.795280,0.000280,4.080000,4.079797,-0.000203,direct thesis comparison,True
+4,Civic and religious activities,Delta,-20.508000,-20.508235,-0.000235,5.916000,5.915623,-0.000377,direct thesis comparison,True
+4,Civic and religious activities,Beta + Delta,-19.713000,-19.712955,0.000045,4.350000,4.350135,0.000135,direct thesis comparison,True
+4,Own medical care,Beta,1.017000,1.017162,0.000162,1.930000,1.930167,0.000167,direct thesis comparison,True
+4,Own medical care,Delta,-7.632000,-7.631766,0.000234,3.376000,3.376430,0.000430,direct thesis comparison,True
+4,Own medical care,Beta + Delta,6.615000,-6.614605,-13.229605,2.788000,2.787659,-0.000341,confirmed thesis erratum,True
+5,Other income-generating activities,Beta,-1.590000,-1.589532,0.000468,2.210000,2.209810,-0.000190,direct thesis comparison,True
+5,Other income-generating activities,Delta,3.390000,3.390049,0.000049,2.906000,2.905679,-0.000321,direct thesis comparison,True
+5,Other income-generating activities,Beta + Delta,1.801000,1.800517,-0.000483,1.175000,1.175271,0.000271,direct thesis comparison,True
+5,Job search,Beta,-3.248000,-3.247750,0.000250,2.558000,2.557808,-0.000192,direct thesis comparison,True
+5,Job search,Delta,2.824000,2.823613,-0.000387,3.172000,3.172433,0.000433,direct thesis comparison,True
+5,Job search,Beta + Delta,-0.424000,-0.424137,-0.000137,1.615000,1.614884,-0.000116,direct thesis comparison,True
+5,Childcare,Beta,-6.952000,-6.951710,0.000290,4.717000,4.717132,0.000132,direct thesis comparison,True
+5,Childcare,Delta,2.777000,2.776924,-0.000076,9.704000,9.703566,-0.000434,direct thesis comparison,True
+5,Childcare,Beta + Delta,-4.175000,-4.174786,0.000214,7.010000,7.010173,0.000173,direct thesis comparison,True
+5,Non-market work,Beta,41.821000,41.821483,0.000483,11.293000,11.292533,-0.000467,direct thesis comparison,True
+5,Non-market work,Delta,-14.431000,-14.430884,0.000116,6.309000,6.308513,-0.000487,direct thesis comparison,True
+5,Non-market work,Beta + Delta,27.391000,27.390599,-0.000401,12.082000,12.082375,0.000375,direct thesis comparison,True
+5,Core home production,Beta,19.118000,19.117661,-0.000339,7.726000,7.726328,0.000328,direct thesis comparison,True
+5,Core home production,Delta,4.089000,4.088561,-0.000439,10.673000,10.673313,0.000313,direct thesis comparison,True
+5,Core home production,Beta + Delta,23.206000,23.206223,0.000223,7.144000,7.143918,-0.000082,direct thesis comparison,True
+5,Home ownership activities,Beta,41.436000,41.436114,0.000114,14.572000,14.572451,0.000451,direct thesis comparison,True
+5,Home ownership activities,Delta,-18.265000,-18.264869,0.000131,9.071000,9.071076,0.000076,direct thesis comparison,True
+5,Home ownership activities,Beta + Delta,23.171000,23.171244,0.000244,8.115000,8.114935,-0.000065,direct thesis comparison,True
+5,Obtaining goods and services,Beta,-15.788000,-15.788467,-0.000467,7.077000,7.077383,0.000383,direct thesis comparison,True
+5,Obtaining goods and services,Delta,-2.893000,-2.893266,-0.000266,6.769000,6.768993,-0.000007,direct thesis comparison,True
+5,Obtaining goods and services,Beta + Delta,-18.682000,-18.681733,0.000267,7.175000,7.175487,0.000487,direct thesis comparison,True
+5,Others care,Beta,-2.944000,-2.943825,0.000175,2.877000,2.876758,-0.000242,direct thesis comparison,True
+5,Others care,Delta,2.639000,2.638690,-0.000310,4.269000,4.268830,-0.000170,direct thesis comparison,True
+5,Others care,Beta + Delta,-0.305000,-0.305135,-0.000135,4.035000,4.035179,0.000179,direct thesis comparison,True
+5,Leisure,Beta,143.041000,143.041460,0.000460,16.038000,16.038454,0.000454,direct thesis comparison,True
+5,Leisure,Delta,-29.567000,-29.566594,0.000406,28.212000,28.212412,0.000412,direct thesis comparison,True
+5,Leisure,Beta + Delta,113.475000,113.474867,-0.000133,36.137000,36.136993,-0.000007,direct thesis comparison,True
+5,TV watching,Beta,54.896000,54.896473,0.000473,23.418000,23.418407,0.000407,direct thesis comparison,True
+5,TV watching,Delta,-22.300000,-22.299679,0.000321,22.064000,22.064013,0.000013,direct thesis comparison,True
+5,TV watching,Beta + Delta,32.597000,32.596795,-0.000205,20.217000,20.217306,0.000306,direct thesis comparison,True
+5,Socializing,Beta,32.423000,32.422825,-0.000175,8.724000,8.723810,-0.000190,direct thesis comparison,True
+5,Socializing,Delta,-31.810000,-31.810471,-0.000471,10.054000,10.054070,0.000070,direct thesis comparison,True
+5,Socializing,Beta + Delta,0.612000,0.612353,0.000353,8.244000,8.244319,0.000319,direct thesis comparison,True
+5,Sleeping,Beta,35.819000,35.819457,0.000457,7.793000,7.792920,-0.000080,direct thesis comparison,True
+5,Sleeping,Delta,13.655000,13.655311,0.000311,8.852000,8.852354,0.000354,direct thesis comparison,True
+5,Sleeping,Beta + Delta,49.475000,49.474769,-0.000231,7.127000,7.126987,-0.000013,direct thesis comparison,True
+5,Eating and personal care,Beta,-26.152000,-26.152246,-0.000246,9.126000,9.126109,0.000109,direct thesis comparison,True
+5,Eating and personal care,Delta,5.927000,5.927316,0.000316,9.270000,9.270133,0.000133,direct thesis comparison,True
+5,Eating and personal care,Beta + Delta,-20.225000,-20.224930,0.000070,8.276000,8.276381,0.000381,direct thesis comparison,True
+5,Other leisure,Beta,46.055000,46.054951,-0.000049,22.311000,22.311045,0.000045,direct thesis comparison,True
+5,Other leisure,Delta,4.961000,4.960929,-0.000071,17.538000,17.538116,0.000116,direct thesis comparison,True
+5,Other leisure,Beta + Delta,51.016000,51.015879,-0.000121,31.764000,31.763702,-0.000298,direct thesis comparison,True
+5,Other,Beta,-73.074000,-73.073953,0.000047,21.088000,21.088238,0.000238,direct thesis comparison,True
+5,Other,Delta,35.007000,35.006892,-0.000108,22.366000,22.366169,0.000169,direct thesis comparison,True
+5,Other,Beta + Delta,-38.067000,-38.067061,-0.000061,34.601000,34.600685,-0.000315,direct thesis comparison,True
+5,Education,Beta,-42.007000,-42.007083,-0.000083,21.515000,21.515146,0.000146,direct thesis comparison,True
+5,Education,Delta,37.883000,37.883038,0.000038,13.464000,13.463679,-0.000321,direct thesis comparison,True
+5,Education,Beta + Delta,-4.124000,-4.124045,-0.000045,29.805000,29.804695,-0.000305,direct thesis comparison,True
+5,Civic and religious activities,Beta,-18.807000,-18.806597,0.000403,3.950000,3.949918,-0.000082,direct thesis comparison,True
+5,Civic and religious activities,Delta,-1.929000,-1.928835,0.000165,5.589000,5.589319,0.000319,direct thesis comparison,True
+5,Civic and religious activities,Beta + Delta,-20.735000,-20.735431,-0.000431,6.495000,6.495156,0.000156,direct thesis comparison,True
+5,Own medical care,Beta,-8.105000,-8.104523,0.000477,2.112000,2.111649,-0.000351,direct thesis comparison,True
+5,Own medical care,Delta,2.582000,2.582349,0.000349,4.959000,4.959199,0.000199,direct thesis comparison,True
+5,Own medical care,Beta + Delta,-5.522000,-5.522174,-0.000174,4.726000,4.725563,-0.000437,direct thesis comparison,True
+6,Other income-generating activities,Beta,-1.206000,-1.205796,0.000204,3.184000,3.184320,0.000320,direct thesis comparison,True
+6,Other income-generating activities,Delta 1 (female),0.670000,0.669634,-0.000366,4.240000,4.240162,0.000162,direct thesis comparison,True
+6,Other income-generating activities,Delta 2 (married),-1.175000,-1.174895,0.000105,4.272000,4.272253,0.000253,direct thesis comparison,True
+6,Other income-generating activities,Delta 3 (female x married),5.277000,5.277244,0.000244,6.041000,6.041246,0.000246,direct thesis comparison,True
+6,Job search,Beta,-3.404000,-3.404291,-0.000291,2.845000,2.845026,0.000026,direct thesis comparison,True
+6,Job search,Delta 1 (female),4.270000,4.270466,0.000466,4.514000,4.513592,-0.000408,direct thesis comparison,True
+6,Job search,Delta 2 (married),0.478000,0.477816,-0.000184,4.290000,4.289942,-0.000058,direct thesis comparison,True
+6,Job search,Delta 3 (female x married),-2.745000,-2.744986,0.000014,3.820000,3.819682,-0.000318,direct thesis comparison,True
+6,Childcare,Beta,-4.635000,-4.634986,0.000014,3.136000,3.135660,-0.000340,direct thesis comparison,True
+6,Childcare,Delta 1 (female),16.090000,16.090296,0.000296,7.398000,7.398395,0.000395,direct thesis comparison,True
+6,Childcare,Delta 2 (married),-7.223000,-7.222890,0.000110,21.805000,21.804729,-0.000271,direct thesis comparison,True
+6,Childcare,Delta 3 (female x married),-20.382000,-20.381710,0.000290,22.983000,22.982941,-0.000059,direct thesis comparison,True
+6,Non-market work,Beta,33.612000,33.611860,-0.000140,14.648000,14.648195,0.000195,direct thesis comparison,True
+6,Non-market work,Delta 1 (female),-50.450000,-50.449966,0.000034,21.735000,21.734587,-0.000413,direct thesis comparison,True
+6,Non-market work,Delta 2 (married),25.547000,25.546605,-0.000395,37.468000,37.468178,0.000178,direct thesis comparison,True
+6,Non-market work,Delta 3 (female x married),52.622000,52.622035,0.000035,50.514000,50.513657,-0.000343,direct thesis comparison,True
+6,Core home production,Beta,20.955000,20.954618,-0.000382,6.953000,6.953228,0.000228,direct thesis comparison,True
+6,Core home production,Delta 1 (female),-16.113000,-16.112992,0.000008,9.069000,9.069310,0.000310,direct thesis comparison,True
+6,Core home production,Delta 2 (married),-5.593000,-5.592951,0.000049,35.590000,35.589775,-0.000225,direct thesis comparison,True
+6,Core home production,Delta 3 (female x married),37.874000,37.873994,-0.000006,37.327000,37.327065,0.000065,direct thesis comparison,True
+6,Home ownership activities,Beta,18.417000,18.417276,0.000276,11.169000,11.168772,-0.000228,direct thesis comparison,True
+6,Home ownership activities,Delta 1 (female),0.619000,0.618849,-0.000151,6.686000,6.686185,0.000185,direct thesis comparison,True
+6,Home ownership activities,Delta 2 (married),71.107000,71.106857,-0.000143,37.264000,37.264172,0.000172,direct thesis comparison,True
+6,Home ownership activities,Delta 3 (female x married),-63.052000,-63.051760,0.000240,40.713000,40.713421,0.000421,direct thesis comparison,True
+6,Obtaining goods and services,Beta,-4.669000,-4.668995,0.000005,4.938000,4.938360,0.000360,direct thesis comparison,True
+6,Obtaining goods and services,Delta 1 (female),-31.681000,-31.680908,0.000092,12.628000,12.627781,-0.000219,direct thesis comparison,True
+6,Obtaining goods and services,Delta 2 (married),-34.263000,-34.263077,-0.000077,32.092000,32.092018,0.000018,direct thesis comparison,True
+6,Obtaining goods and services,Delta 3 (female x married),65.006000,65.006074,0.000074,40.241000,40.241394,0.000394,direct thesis comparison,True
+6,Others care,Beta,-1.091000,-1.091039,-0.000039,2.514000,2.513938,-0.000062,direct thesis comparison,True
+6,Others care,Delta 1 (female),-3.275000,-3.274915,0.000085,6.487000,6.486641,-0.000359,direct thesis comparison,True
+6,Others care,Delta 2 (married),-5.704000,-5.704225,-0.000225,6.519000,6.519028,0.000028,direct thesis comparison,True
+6,Others care,Delta 3 (female x married),12.794000,12.793727,-0.000273,7.234000,7.234316,0.000316,direct thesis comparison,True
+6,Leisure,Beta,150.847000,150.846650,-0.000350,29.451000,29.451172,0.000172,direct thesis comparison,True
+6,Leisure,Delta 1 (female),3.169000,3.168805,-0.000195,67.841000,67.841125,0.000125,direct thesis comparison,True
+6,Leisure,Delta 2 (married),-24.281000,-24.281510,-0.000510,63.219000,63.218906,-0.000094,direct thesis comparison,True
+6,Leisure,Delta 3 (female x married),-47.378000,-47.378252,-0.000252,90.125000,90.124458,-0.000542,direct thesis comparison,True
+6,TV watching,Beta,62.135000,62.134743,-0.000257,17.568000,17.567814,-0.000186,direct thesis comparison,True
+6,TV watching,Delta 1 (female),-31.002000,-31.001693,0.000307,34.331000,34.330952,-0.000048,direct thesis comparison,True
+6,TV watching,Delta 2 (married),-22.347000,-22.347481,-0.000481,46.001000,46.001293,0.000293,direct thesis comparison,True
+6,TV watching,Delta 3 (female x married),24.682000,24.682417,0.000417,48.712000,48.712467,0.000467,direct thesis comparison,True
+6,Socializing,Beta,44.100000,44.099537,-0.000463,8.797000,8.796610,-0.000390,direct thesis comparison,True
+6,Socializing,Delta 1 (female),-35.923000,-35.922501,0.000499,14.955000,14.954524,-0.000476,direct thesis comparison,True
+6,Socializing,Delta 2 (married),-36.094000,-36.094056,-0.000056,21.252000,21.251772,-0.000228,direct thesis comparison,True
+6,Socializing,Delta 3 (female x married),22.380000,22.379670,-0.000330,32.969000,32.968609,-0.000391,direct thesis comparison,True
+6,Sleeping,Beta,32.700000,32.699878,-0.000122,9.391000,9.391158,0.000158,direct thesis comparison,True
+6,Sleeping,Delta 1 (female),35.187000,35.187385,0.000385,15.215000,15.214992,-0.000008,direct thesis comparison,True
+6,Sleeping,Delta 2 (married),9.554000,9.553851,-0.000149,36.770000,36.769932,-0.000068,direct thesis comparison,True
+6,Sleeping,Delta 3 (female x married),-41.876000,-41.876201,-0.000201,38.633000,38.632736,-0.000264,direct thesis comparison,True
+6,Eating and personal care,Beta,-25.590000,-25.589628,0.000372,7.373000,7.372870,-0.000130,direct thesis comparison,True
+6,Eating and personal care,Delta 1 (female),4.776000,4.775874,-0.000126,13.852000,13.852174,0.000174,direct thesis comparison,True
+6,Eating and personal care,Delta 2 (married),-1.735000,-1.734957,0.000043,18.027000,18.026558,-0.000442,direct thesis comparison,True
+6,Eating and personal care,Delta 3 (female x married),2.753000,2.753078,0.000078,21.598000,21.597651,-0.000349,direct thesis comparison,True
+6,Other leisure,Beta,37.502000,37.502121,0.000121,23.180000,23.179819,-0.000181,direct thesis comparison,True
+6,Other leisure,Delta 1 (female),30.130000,30.129739,-0.000261,32.668000,32.667824,-0.000176,direct thesis comparison,True
+6,Other leisure,Delta 2 (married),26.341000,26.341133,0.000133,42.071000,42.071091,0.000091,direct thesis comparison,True
+6,Other leisure,Delta 3 (female x married),-55.317000,-55.317215,-0.000215,49.992000,49.991882,-0.000118,direct thesis comparison,True
+6,Other,Beta,-75.213000,-75.213438,-0.000438,41.034000,41.034168,0.000168,direct thesis comparison,True
+6,Other,Delta 1 (female),26.251000,26.250766,-0.000234,45.849000,45.848804,-0.000196,direct thesis comparison,True
+6,Other,Delta 2 (married),6.655000,6.654872,-0.000128,71.492000,71.492172,0.000172,direct thesis comparison,True
+6,Other,Delta 3 (female x married),12.606000,12.605670,-0.000330,61.771000,61.771305,0.000305,direct thesis comparison,True
+6,Education,Beta,-56.842000,-56.841771,0.000229,37.751000,37.751522,0.000522,direct thesis comparison,True
+6,Education,Delta 1 (female),43.268000,43.268404,0.000404,32.917000,32.916576,-0.000424,direct thesis comparison,True
+6,Education,Delta 2 (married),45.855000,45.855017,0.000017,36.226000,36.226032,0.000032,direct thesis comparison,True
+6,Education,Delta 3 (female x married),-28.715000,-28.715522,-0.000522,32.551000,32.550774,-0.000226,direct thesis comparison,True
+6,Civic and religious activities,Beta,-5.125000,-5.125218,-0.000218,3.953000,3.953009,0.000009,direct thesis comparison,True
+6,Civic and religious activities,Delta 1 (female),-14.296000,-14.296282,-0.000282,9.197000,9.196962,-0.000038,direct thesis comparison,True
+6,Civic and religious activities,Delta 2 (married),-42.258000,-42.257780,0.000220,29.597000,29.597485,0.000485,direct thesis comparison,True
+6,Civic and religious activities,Delta 3 (female x married),39.485000,39.484584,-0.000416,35.442000,35.442299,0.000299,direct thesis comparison,True
+6,Own medical care,Beta,-5.706000,-5.706475,-0.000475,2.236000,2.236236,0.000236,direct thesis comparison,True
+6,Own medical care,Delta 1 (female),-4.282000,-4.281547,0.000453,10.994000,10.993622,-0.000378,direct thesis comparison,True
+6,Own medical care,Delta 2 (married),-7.386000,-7.386387,-0.000387,6.329000,6.329205,0.000205,direct thesis comparison,True
+6,Own medical care,Delta 3 (female x married),15.171000,15.170902,-0.000098,13.472000,13.472022,0.000022,direct thesis comparison,True
+7,Other income-generating activities,Singles,-0.557000,-0.556974,0.000026,2.811000,2.810506,-0.000494,direct thesis comparison,True
+7,Other income-generating activities,Married,3.600000,3.600422,0.000422,2.443000,2.442771,-0.000229,direct thesis comparison,True
+7,Other income-generating activities,Singles with young kids,-2.258000,-9.570498,-7.312498,1.922000,12.484534,10.562534,corrected subgroup definition,True
+7,Other income-generating activities,Married with young kids,3.046000,-5.037026,-8.083026,2.153000,1.933448,-0.219552,corrected subgroup definition,True
+7,Job search,Singles,0.800000,0.799698,-0.000302,4.017000,4.016965,-0.000035,direct thesis comparison,True
+7,Job search,Married,-1.387000,-1.387410,-0.000410,0.831000,0.830961,-0.000039,direct thesis comparison,True
+7,Job search,Singles with young kids,-0.620000,-1.573745,-0.953745,3.608000,10.497466,6.889466,corrected subgroup definition,True
+7,Job search,Married with young kids,-2.160000,1.496759,3.656759,1.959000,1.565499,-0.393501,corrected subgroup definition,True
+7,Childcare,Singles,11.346000,11.346364,0.000364,5.850000,5.849655,-0.000345,direct thesis comparison,True
+7,Childcare,Married,-15.626000,-15.625663,0.000337,9.375000,9.374772,-0.000228,direct thesis comparison,True
+7,Childcare,Singles with young kids,16.384000,151.888762,135.504762,9.056000,174.047810,164.991810,corrected subgroup definition,True
+7,Childcare,Married with young kids,-24.351000,5.116187,29.467187,15.065000,11.542113,-3.522887,corrected subgroup definition,True
+7,Non-market work,Singles,-16.224000,-16.224229,-0.000229,23.293000,23.293373,0.000373,direct thesis comparison,True
+7,Non-market work,Married,60.005000,60.004726,-0.000274,14.645000,14.645300,0.000300,direct thesis comparison,True
+7,Non-market work,Singles with young kids,-28.148000,-97.371485,-69.223485,24.035000,136.060360,112.025360,corrected subgroup definition,True
+7,Non-market work,Married with young kids,89.201000,76.219559,-12.981441,40.534000,17.613989,-22.920011,corrected subgroup definition,True
+7,Core home production,Singles,5.518000,5.518156,0.000156,9.187000,9.187272,0.000272,direct thesis comparison,True
+7,Core home production,Married,36.684000,36.684121,0.000121,11.014000,11.014184,0.000184,direct thesis comparison,True
+7,Core home production,Singles with young kids,4.821000,-43.784644,-48.605644,9.013000,65.614120,56.601120,corrected subgroup definition,True
+7,Core home production,Married with young kids,45.766000,64.035574,18.269574,15.193000,16.622156,1.429156,corrected subgroup definition,True
+7,Home ownership activities,Singles,18.040000,18.039885,-0.000115,6.465000,6.465072,0.000072,direct thesis comparison,True
+7,Home ownership activities,Married,26.182000,26.181945,-0.000055,9.680000,9.679673,-0.000327,direct thesis comparison,True
+7,Home ownership activities,Singles with young kids,13.446000,-5.514471,-18.960471,5.810000,13.124505,7.314505,corrected subgroup definition,True
+7,Home ownership activities,Married with young kids,21.968000,11.899610,-10.068390,9.702000,9.958075,0.256075,corrected subgroup definition,True
+7,Obtaining goods and services,Singles,-35.473000,-35.473109,-0.000109,13.676000,13.676157,0.000157,direct thesis comparison,True
+7,Obtaining goods and services,Married,-5.556000,-5.556080,-0.000080,6.816000,6.816368,0.000368,direct thesis comparison,True
+7,Obtaining goods and services,Singles with young kids,-36.809000,-61.441218,-24.632218,12.592000,76.321159,63.729159,corrected subgroup definition,True
+7,Obtaining goods and services,Married with young kids,10.930000,2.502755,-8.427245,23.729000,8.333210,-15.395790,corrected subgroup definition,True
+7,Others care,Singles,-4.309000,-4.309161,-0.000161,6.335000,6.335247,0.000247,direct thesis comparison,True
+7,Others care,Married,2.695000,2.694740,-0.000260,4.495000,4.494735,-0.000265,direct thesis comparison,True
+7,Others care,Singles with young kids,-9.606000,13.368843,22.974843,5.350000,12.713651,7.363651,corrected subgroup definition,True
+7,Others care,Married with young kids,10.536000,-2.218380,-12.754380,8.526000,5.894130,-2.631870,corrected subgroup definition,True
+7,Leisure,Singles,153.600000,153.600302,0.000302,80.409000,80.408867,-0.000133,direct thesis comparison,True
+7,Leisure,Married,82.314000,82.313873,-0.000127,14.159000,14.158682,-0.000318,direct thesis comparison,True
+7,Leisure,Singles with young kids,95.451000,43.450049,-52.000951,41.672000,130.269730,88.597730,corrected subgroup definition,True
+7,Leisure,Married with young kids,66.983000,45.683912,-21.299088,13.348000,21.027903,7.679903,corrected subgroup definition,True
+7,TV watching,Singles,31.503000,31.502858,-0.000142,24.278000,24.278013,0.000013,direct thesis comparison,True
+7,TV watching,Married,33.498000,33.498255,0.000255,19.323000,19.323008,0.000008,direct thesis comparison,True
+7,TV watching,Singles with young kids,17.704000,-46.032365,-63.736365,24.936000,129.057590,104.121590,corrected subgroup definition,True
+7,TV watching,Married with young kids,32.083000,-9.516119,-41.599119,32.916000,19.843708,-13.072292,corrected subgroup definition,True
+7,Socializing,Singles,8.401000,8.400597,-0.000403,16.006000,16.006283,0.000283,direct thesis comparison,True
+7,Socializing,Married,-6.411000,-6.411242,-0.000242,8.618000,8.618277,0.000277,direct thesis comparison,True
+7,Socializing,Singles with young kids,6.407000,2.795742,-3.611258,12.437000,40.450649,28.013649,corrected subgroup definition,True
+7,Socializing,Married with young kids,-3.644000,-23.755001,-20.111001,9.773000,15.638177,5.865177,corrected subgroup definition,True
+7,Sleeping,Singles,67.433000,67.432573,-0.000427,18.418000,18.417871,-0.000129,direct thesis comparison,True
+7,Sleeping,Married,35.883000,35.883194,0.000194,11.061000,11.061443,0.000443,direct thesis comparison,True
+7,Sleeping,Singles with young kids,44.105000,97.614601,53.509601,13.071000,109.295190,96.224190,corrected subgroup definition,True
+7,Sleeping,Married with young kids,31.859000,43.650065,11.791065,11.669000,14.167596,2.498596,corrected subgroup definition,True
+7,Eating and personal care,Singles,-20.493000,-20.492763,0.000237,9.661000,9.660843,-0.000157,direct thesis comparison,True
+7,Eating and personal care,Married,-19.519000,-19.519430,-0.000430,8.695000,8.694636,-0.000364,direct thesis comparison,True
+7,Eating and personal care,Singles with young kids,-16.862000,-43.401487,-26.539487,7.009000,46.105396,39.096396,corrected subgroup definition,True
+7,Eating and personal care,Married with young kids,-19.016000,-1.438422,17.577578,10.253000,11.163937,0.910937,corrected subgroup definition,True
+7,Other leisure,Singles,66.757000,66.757037,0.000037,50.972000,50.971729,-0.000271,direct thesis comparison,True
+7,Other leisure,Married,38.863000,38.863097,0.000097,19.042000,19.042179,0.000179,direct thesis comparison,True
+7,Other leisure,Singles with young kids,44.097000,32.473557,-11.623443,34.320000,105.827750,71.507750,corrected subgroup definition,True
+7,Other leisure,Married with young kids,25.701000,36.743389,11.042389,19.135000,9.250583,-9.884417,corrected subgroup definition,True
+7,Other,Singles,-48.965000,-48.965160,-0.000160,72.250000,72.249557,-0.000443,direct thesis comparison,True
+7,Other,Married,-28.906000,-28.905948,0.000052,13.044000,13.044161,0.000161,direct thesis comparison,True
+7,Other,Singles with young kids,19.191000,13.176916,-6.014084,36.229000,71.938286,35.709286,corrected subgroup definition,True
+7,Other,Married with young kids,-32.718000,-23.479389,9.238611,31.695000,18.667919,-13.027081,corrected subgroup definition,True
+7,Education,Singles,-14.255000,-14.254810,0.000190,61.619000,61.619316,0.000316,direct thesis comparison,True
+7,Education,Married,4.337000,4.337282,0.000282,6.679000,6.679247,0.000247,direct thesis comparison,True
+7,Education,Singles with young kids,47.157000,30.644453,-16.512547,31.652000,86.344055,54.692055,corrected subgroup definition,True
+7,Education,Married with young kids,0.895000,5.377139,4.482139,18.500000,8.756875,-9.743125,corrected subgroup definition,True
+7,Civic and religious activities,Singles,-18.691000,-18.960621,-0.269621,9.347000,9.347076,0.000076,confirmed thesis erratum,True
+7,Civic and religious activities,Married,-22.163000,-22.162798,0.000202,7.747000,7.746704,-0.000296,direct thesis comparison,True
+7,Civic and religious activities,Singles with young kids,-16.427000,-6.339948,10.087052,7.222000,21.436592,14.214592,corrected subgroup definition,True
+7,Civic and religious activities,Married with young kids,-19.114000,-27.571673,-8.457673,9.414000,12.172829,2.758829,corrected subgroup definition,True
+7,Own medical care,Singles,-9.835000,-9.834617,0.000383,10.131000,10.130679,-0.000321,direct thesis comparison,True
+7,Own medical care,Married,-2.104000,-2.104212,-0.000212,4.253000,4.252633,-0.000367,direct thesis comparison,True
+7,Own medical care,Singles with young kids,-9.809000,-10.576029,-0.767029,10.845000,17.735315,6.890315,corrected subgroup definition,True
+7,Own medical care,Married with young kids,-4.611000,-1.254502,3.356498,7.662000,5.019774,-2.642226,corrected subgroup definition,True
+8,Other income-generating activities,Beta,0.263000,0.263456,0.000456,1.104000,1.103779,-0.000221,direct thesis comparison,True
+8,Other income-generating activities,Delta,0.619000,0.618607,-0.000393,1.455000,1.455072,0.000072,direct thesis comparison,True
+8,Other income-generating activities,Beta + Delta,0.882000,0.882063,0.000063,1.011000,1.010628,-0.000372,direct thesis comparison,True
+8,Job search,Beta,1.048000,1.047803,-0.000197,0.727000,0.727107,0.000107,direct thesis comparison,True
+8,Job search,Delta,0.494000,0.494238,0.000238,1.112000,1.111669,-0.000331,direct thesis comparison,True
+8,Job search,Beta + Delta,1.542000,1.542040,0.000040,0.873000,0.873460,0.000460,direct thesis comparison,True
+8,Childcare,Beta,5.156000,5.155870,-0.000130,5.205000,5.205195,0.000195,direct thesis comparison,True
+8,Childcare,Delta,-10.873000,-10.873117,-0.000117,6.399000,6.399157,0.000157,direct thesis comparison,True
+8,Childcare,Beta + Delta,-5.717000,-5.717246,-0.000246,4.054000,4.054098,0.000098,direct thesis comparison,True
+8,Non-market work,Beta,-5.381000,-5.380809,0.000191,19.415000,19.415375,0.000375,direct thesis comparison,True
+8,Non-market work,Delta,36.870000,36.869959,-0.000041,22.258000,22.258368,0.000368,direct thesis comparison,True
+8,Non-market work,Beta + Delta,31.489000,31.489150,0.000150,12.300000,12.300076,0.000076,direct thesis comparison,True
+8,Core home production,Beta,4.393000,4.393013,0.000013,7.580000,7.579546,-0.000454,direct thesis comparison,True
+8,Core home production,Delta,15.602000,15.602386,0.000386,9.021000,9.021002,0.000002,direct thesis comparison,True
+8,Core home production,Beta + Delta,19.995000,19.995398,0.000398,5.391000,5.390605,-0.000395,direct thesis comparison,True
+8,Home ownership activities,Beta,-9.787000,-9.787206,-0.000206,13.200000,13.199904,-0.000096,direct thesis comparison,True
+8,Home ownership activities,Delta,40.410000,40.410103,0.000103,17.763000,17.762842,-0.000158,direct thesis comparison,True
+8,Home ownership activities,Beta + Delta,30.623000,30.622898,-0.000102,12.629000,12.628931,-0.000069,direct thesis comparison,True
+8,Obtaining goods and services,Beta,-1.900000,-1.900056,-0.000056,6.584000,6.584067,0.000067,direct thesis comparison,True
+8,Obtaining goods and services,Delta,-16.139000,-16.139481,-0.000481,9.563000,9.562584,-0.000416,direct thesis comparison,True
+8,Obtaining goods and services,Beta + Delta,-18.040000,-18.039537,0.000463,7.286000,7.285639,-0.000361,direct thesis comparison,True
+8,Others care,Beta,1.913000,1.913441,0.000441,4.416000,4.415899,-0.000101,direct thesis comparison,True
+8,Others care,Delta,-3.003000,-3.003049,-0.000049,5.110000,5.109891,-0.000109,direct thesis comparison,True
+8,Others care,Beta + Delta,-1.090000,-1.089609,0.000391,2.881000,2.880631,-0.000369,direct thesis comparison,True
+8,Leisure,Beta,69.918000,69.918075,0.000075,22.317000,22.316797,-0.000203,direct thesis comparison,True
+8,Leisure,Delta,55.618000,55.617902,-0.000098,34.577000,34.577412,0.000412,direct thesis comparison,True
+8,Leisure,Beta + Delta,125.536000,125.535976,-0.000024,27.603000,27.603014,0.000014,direct thesis comparison,True
+8,TV watching,Beta,42.402000,42.401779,-0.000221,20.713000,20.712900,-0.000100,direct thesis comparison,True
+8,TV watching,Delta,1.971000,1.970909,-0.000091,26.891000,26.891273,0.000273,direct thesis comparison,True
+8,TV watching,Beta + Delta,44.373000,44.372688,-0.000312,18.410000,18.409622,-0.000378,direct thesis comparison,True
+8,Socializing,Beta,-2.967000,-2.967475,-0.000475,10.274000,10.273993,-0.000007,direct thesis comparison,True
+8,Socializing,Delta,19.571000,19.571282,0.000282,11.609000,11.608882,-0.000118,direct thesis comparison,True
+8,Socializing,Beta + Delta,16.604000,16.603807,-0.000193,6.203000,6.202794,-0.000206,direct thesis comparison,True
+8,Sleeping,Beta,37.639000,37.638990,-0.000010,9.060000,9.059961,-0.000039,direct thesis comparison,True
+8,Sleeping,Delta,4.579000,4.579452,0.000452,11.407000,11.406671,-0.000329,direct thesis comparison,True
+8,Sleeping,Beta + Delta,42.218000,42.218442,0.000442,7.488000,7.487680,-0.000320,direct thesis comparison,True
+8,Eating and personal care,Beta,-3.595000,-3.595260,-0.000260,3.625000,3.625110,0.000110,direct thesis comparison,True
+8,Eating and personal care,Delta,-19.666000,-19.665629,0.000371,8.132000,8.132494,0.000494,direct thesis comparison,True
+8,Eating and personal care,Beta + Delta,-23.261000,-23.260890,0.000110,7.505000,7.505207,0.000207,direct thesis comparison,True
+8,Other leisure,Beta,-3.560000,-3.559959,0.000041,18.242000,18.241941,-0.000059,direct thesis comparison,True
+8,Other leisure,Delta,49.162000,49.161888,-0.000112,31.239000,31.238834,-0.000166,direct thesis comparison,True
+8,Other leisure,Beta + Delta,45.602000,45.601929,-0.000071,26.287000,26.287336,0.000336,direct thesis comparison,True
+8,Other,Beta,28.996000,28.995606,-0.000394,21.726000,21.726006,0.000006,direct thesis comparison,True
+8,Other,Delta,-82.728000,-82.727589,0.000411,36.346000,36.345993,-0.000007,direct thesis comparison,True
+8,Other,Beta + Delta,-53.732000,-53.731984,0.000016,30.248000,30.248163,0.000163,direct thesis comparison,True
+8,Education,Beta,6.158000,6.158137,0.000137,15.075000,15.075315,0.000315,direct thesis comparison,True
+8,Education,Delta,-26.896000,-26.896018,-0.000018,29.000000,28.999727,-0.000273,direct thesis comparison,True
+8,Education,Beta + Delta,-20.738000,-20.737881,0.000119,25.567000,25.566744,-0.000256,direct thesis comparison,True
+8,Civic and religious activities,Beta,0.988000,0.988394,0.000394,5.068000,5.067798,-0.000202,direct thesis comparison,True
+8,Civic and religious activities,Delta,-21.585000,-21.584681,0.000319,7.171000,7.171340,0.000340,direct thesis comparison,True
+8,Civic and religious activities,Beta + Delta,-20.596000,-20.596287,-0.000287,5.372000,5.372351,0.000351,direct thesis comparison,True
+8,Own medical care,Beta,1.790000,1.790467,0.000467,2.429000,2.428817,-0.000183,direct thesis comparison,True
+8,Own medical care,Delta,-7.979000,-7.979496,-0.000496,4.046000,4.045883,-0.000117,direct thesis comparison,True
+8,Own medical care,Beta + Delta,-6.189000,-6.189029,-0.000029,3.359000,3.359498,0.000498,direct thesis comparison,True
+9,Other income-generating activities,Unemployed + employed,0.187000,0.187097,0.000097,1.015000,1.015263,0.000263,direct thesis comparison,True
+9,Other income-generating activities,Employed,0.904000,0.904292,0.000292,1.051000,1.050659,-0.000341,direct thesis comparison,True
+9,Job search,Unemployed + employed,-1.768000,-1.767974,0.000026,1.403000,1.402667,-0.000333,direct thesis comparison,True
+9,Job search,Employed,1.538000,1.538346,0.000346,0.906000,0.905571,-0.000429,direct thesis comparison,True
+9,Childcare,Unemployed + employed,-5.496000,-5.496403,-0.000403,3.531000,3.531212,0.000212,direct thesis comparison,True
+9,Childcare,Employed,-6.293000,-6.293428,-0.000428,4.265000,4.264833,-0.000167,direct thesis comparison,True
+9,Non-market work,Unemployed + employed,34.259000,34.258666,-0.000334,11.250000,11.249554,-0.000446,direct thesis comparison,True
+9,Non-market work,Employed,32.416000,32.415937,-0.000063,12.299000,12.298500,-0.000500,direct thesis comparison,True
+9,Core home production,Unemployed + employed,21.260000,21.260360,0.000360,5.101000,5.101472,0.000472,direct thesis comparison,True
+9,Core home production,Employed,20.263000,20.263312,0.000312,5.878000,5.877800,-0.000200,direct thesis comparison,True
+9,Home ownership activities,Unemployed + employed,31.864000,31.864013,0.000013,10.565000,10.564837,-0.000163,direct thesis comparison,True
+9,Home ownership activities,Employed,32.191000,32.190535,-0.000465,12.891000,12.890974,-0.000026,direct thesis comparison,True
+9,Obtaining goods and services,Unemployed + employed,-17.305000,-17.304745,0.000255,6.266000,6.265863,-0.000137,direct thesis comparison,True
+9,Obtaining goods and services,Employed,-18.811000,-18.811039,-0.000039,7.871000,7.871247,0.000247,direct thesis comparison,True
+9,Others care,Unemployed + employed,-1.561000,-1.560962,0.000038,2.811000,2.811389,0.000389,direct thesis comparison,True
+9,Others care,Employed,-1.227000,-1.226872,0.000128,3.066000,3.065768,-0.000232,direct thesis comparison,True
+9,Leisure,Unemployed + employed,127.546000,127.546447,0.000447,24.300000,24.300209,0.000209,direct thesis comparison,True
+9,Leisure,Employed,128.080000,128.079849,-0.000151,28.558000,28.558317,0.000317,direct thesis comparison,True
+9,TV watching,Unemployed + employed,43.210000,43.209844,-0.000156,18.893000,18.892738,-0.000262,direct thesis comparison,True
+9,TV watching,Employed,43.631000,43.630794,-0.000206,19.308000,19.308121,0.000121,direct thesis comparison,True
+9,Socializing,Unemployed + employed,15.752000,15.751858,-0.000142,6.690000,6.690264,0.000264,direct thesis comparison,True
+9,Socializing,Employed,17.508000,17.508134,0.000134,6.165000,6.165114,0.000114,direct thesis comparison,True
+9,Sleeping,Unemployed + employed,42.976000,42.975819,-0.000181,5.957000,5.956681,-0.000319,direct thesis comparison,True
+9,Sleeping,Employed,43.022000,43.022287,0.000287,7.985000,7.984735,-0.000265,direct thesis comparison,True
+9,Eating and personal care,Unemployed + employed,-23.046000,-23.045907,0.000093,7.413000,7.412999,-0.000001,direct thesis comparison,True
+9,Eating and personal care,Employed,-23.822000,-23.821498,0.000502,8.259000,8.258761,-0.000239,direct thesis comparison,True
+9,Other leisure,Unemployed + employed,48.655000,48.654833,-0.000167,26.302000,26.302124,0.000124,direct thesis comparison,True
+9,Other leisure,Employed,47.740000,47.740132,0.000132,27.169000,27.168793,-0.000207,direct thesis comparison,True
+9,Other,Unemployed + employed,-54.728000,-54.727833,0.000167,26.373000,26.373140,0.000140,direct thesis comparison,True
+9,Other,Employed,-56.645000,-56.644997,0.000003,30.772000,30.772255,0.000255,direct thesis comparison,True
+9,Education,Unemployed + employed,-22.154000,-22.153657,0.000343,24.756000,24.756050,0.000050,direct thesis comparison,True
+9,Education,Employed,-21.461000,-21.460938,0.000062,26.019000,26.018724,-0.000276,direct thesis comparison,True
+9,Civic and religious activities,Unemployed + employed,-19.817000,-19.817444,-0.000444,4.626000,4.625731,-0.000269,direct thesis comparison,True
+9,Civic and religious activities,Employed,-21.349000,-21.348811,0.000189,5.978000,5.977817,-0.000183,direct thesis comparison,True
+9,Own medical care,Unemployed + employed,-6.751000,-6.751187,-0.000187,2.750000,2.749564,-0.000436,direct thesis comparison,True
+9,Own medical care,Employed,-6.548000,-6.548092,-0.000092,3.455000,3.455439,0.000439,direct thesis comparison,True

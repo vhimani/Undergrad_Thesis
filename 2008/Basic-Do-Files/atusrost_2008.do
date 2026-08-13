@@ -13,7 +13,7 @@ tesex
 txage
 txrrp
 txsex
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2008\Basic Original Data Files\atusrost_2008.dat",  names comma ;
+ using "${PROJECT_ROOT}/2008/Basic-Original-Data-Files/atusrost_2008.dat",  names comma ;
 
  
 label variable teage "Edited: age";
@@ -146,4 +146,4 @@ label values txsex   labeltxsex;
  
 describe, short;
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2008\Basic Transformed Data Files\atusrost_2008.dta";
+save "${PROJECT_ROOT}/2008/Basic-Transformed-Data-Files/atusrost_2008.dta";

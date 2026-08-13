@@ -385,7 +385,7 @@ pxpdemp1
 pxnmemp1
 pxpdemp2
 pxnmemp2
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2014\Basic-Original-Data-Files\atuscps_2014.dat", names comma ;
+ using "${PROJECT_ROOT}/2014/Basic-Original-Data-Files/atuscps_2014.dat", names comma ;
  
  
 label variable gepseucl "Scrambled pseudo primary sampling unit (PSU) cluster";
@@ -6375,4 +6375,4 @@ label values pxnmemp1   labelpxnmemp1;
 label values pxpdemp2   labelpxpdemp2;
 label values pxnmemp2   labelpxnmemp2;
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2014\Basic-Transformed-Data-Files\atuscps_2014.dta";
+save "${PROJECT_ROOT}/2014/Basic-Transformed-Data-Files/atuscps_2014.dta";

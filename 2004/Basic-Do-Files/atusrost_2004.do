@@ -12,7 +12,7 @@ insheet
   txrrp
   txage
   
-using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2004\Basic-Do-Files.dat",  names comma ;
+using "${PROJECT_ROOT}/2004/Basic-Original-Data-Files/atusrost_2004.dat",  names comma ;
 
 label variable  teage             "Edited: Age";
 label variable  terrp             "Edited: How is this person related to you?";
@@ -177,5 +177,5 @@ describe, short;
   txage 8
 */
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2004\Basic-Transformed-Data-Files\atusrost_2004.dta";
+save "${PROJECT_ROOT}/2004/Basic-Transformed-Data-Files/atusrost_2004.dta";
 

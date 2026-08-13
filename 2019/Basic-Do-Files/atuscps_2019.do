@@ -385,7 +385,7 @@ pecert3
 pxcert1
 pxcert2
 pxcert3
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Original-Data-Files\atuscps_2019.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2019/Basic-Original-Data-Files/atuscps_2019.dat", stringcols(1) ;
  
  
 label variable gereg "Region";
@@ -6289,4 +6289,4 @@ label values pecert1    labelpecert1;
 label values pecert2    labelpecert2;
 label values pecert3    labelpecert3;
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Transformed-Data-Files\atuscps_2019.dta";
+save "${PROJECT_ROOT}/2019/Basic-Transformed-Data-Files/atuscps_2019.dta";

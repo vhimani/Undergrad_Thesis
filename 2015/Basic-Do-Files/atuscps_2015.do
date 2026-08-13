@@ -383,7 +383,7 @@ pxpdemp1
 pxnmemp1
 pxpdemp2
 pxnmemp2
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2015\Basic-Original-Data-Files\atuscps_2015.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2015/Basic-Original-Data-Files/atuscps_2015.dat", stringcols(1) ;
 
  
 label variable gereg "Region";
@@ -6371,4 +6371,4 @@ label values pxnmemp1   labelpxnmemp1;
 label values pxpdemp2   labelpxpdemp2;
 label values pxnmemp2   labelpxnmemp2;
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2015\Basic-Transformed-Data-Files\atuscps_2015.dta";
+save "${PROJECT_ROOT}/2015/Basic-Transformed-Data-Files/atuscps_2015.dta";

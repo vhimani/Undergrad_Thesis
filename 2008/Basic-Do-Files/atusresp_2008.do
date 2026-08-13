@@ -175,7 +175,7 @@ txto
 txtohh
 txtonhh
  
- using "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2008\Basic Original Data Files\atusresp_2008.dat",  names comma ;
+ using "${PROJECT_ROOT}/2008/Basic-Original-Data-Files/atusresp_2008.dat",  names comma ;
 
  
 label variable teabsrsn "Edited: what was the main reason you were absent from your job last week?";
@@ -2228,5 +2228,5 @@ label values txtonhh   labeltxtonhh;
 describe, short;
 
 
-save "C:\Users\lkarabar\Desktop\ChicagoBooth\Research\Time Use\Data\MyData\ATUS Data\Data for Publication\2008\Basic Transformed Data Files\atusresp_2008.dta";
+save "${PROJECT_ROOT}/2008/Basic-Transformed-Data-Files/atusresp_2008.dta";
 

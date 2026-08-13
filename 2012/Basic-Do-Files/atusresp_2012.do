@@ -178,7 +178,7 @@ txtnohh
 txto
 txtohh
 txtonhh
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2012\Basic-Original-Data-Files\atusresp_2012.dat", names comma ;
+ using "${PROJECT_ROOT}/2012/Basic-Original-Data-Files/atusresp_2012.dat", names comma ;
  
 label variable teabsrsn "Edited: what was the main reason you were absent from your job last week?";
 label variable teern "Edited: total weekly overtime earnings (2 implied decimals)";
@@ -2264,4 +2264,4 @@ label values txtonhh   labeltxtonhh;
  
 describe, short;
 
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2012\Basic-Transformed-Data-Files\atusresp_2012.dta";
+save "${PROJECT_ROOT}/2012/Basic-Transformed-Data-Files/atusresp_2012.dta";

@@ -11,7 +11,7 @@ tesex
 txage
 txrrp
 txsex
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2020\Basic-Original-Data-Files\atusrost_2020.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2020/Basic-Original-Data-Files/atusrost_2020.dat", stringcols(1) ;
 
  
 label variable teage "Edited: age";
@@ -143,4 +143,4 @@ label values txrrp   labeltxrrp;
 label values txsex   labeltxsex;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2020\Basic-Transformed-Data-Files\atusrost_2020.dta";
+save "${PROJECT_ROOT}/2020/Basic-Transformed-Data-Files/atusrost_2020.dta";

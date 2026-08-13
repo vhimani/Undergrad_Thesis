@@ -33,7 +33,7 @@ tutier3code
 trcode
 trtier2
 txwhere
- using "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Original-Data-Files\atusact_2019.dat", stringcols(1) ;
+ using "${PROJECT_ROOT}/2019/Basic-Original-Data-Files/atusact_2019.dat", stringcols(1) ;
 
  
 label variable tewhere "Edited: where were you during the activity?";
@@ -184,4 +184,4 @@ label values tuec24    labeltuec24;
 label values txwhere   labeltxwhere;
  
 describe, short;
-save "\\cnsdisk.austin.utexas.edu\home\hv3793\Desktop\Time-Use-Great-Recession\2019\Basic-Transformed-Data-Files\atusact_2019.dta";
+save "${PROJECT_ROOT}/2019/Basic-Transformed-Data-Files/atusact_2019.dta";
